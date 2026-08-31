@@ -28,21 +28,21 @@ export default function Home() {
                 Exploring the art of development.
               </p>
               <a
-                href="cv-icaginting.pdf"
+                href="ica_cv_terbaru.pdf"
                 className="text-base font-semibold text-white  bg-amber-900
                 py-3 px-8 rounded-full hover:shadow-lg opacity-80 transition duration-300 ease-in-out"
               >
-                Download CV
+                View CV
               </a>
             </div>
             <div className=" w-full self-end px-4 lg:w-1/2">
               <div className="relative   lg:right-0">
                 <Image
                   className=" object-cover mx-auto max-w-full"
-                  src="/ica-ginting.png"
+                  src="/ica-foto.png"
                   alt="Foto Profile"
-                  width={400}
-                  height={400}
+                  width={250}
+                  height={250}
                 ></Image>
                 <span className="absolute -bottom-0 -z-10 left-1/2 -translate-x-1/2 md:scale-125">
                   <svg
@@ -125,7 +125,7 @@ export default function Home() {
                   <p className="font-extralight text-amber-900 pt-2">Figma</p>
                 </div>
                 {/* GitHub */}
-                <div className="mt-4 lg:mt-0">
+                <div className="mt-4 lg:mt-0 flex flex-col items-center">
                   <motion.div
                     animate={{
                       rotate: 360,
@@ -149,7 +149,9 @@ export default function Home() {
                   >
                     <SiGithub className="w-6 h-6" />
                   </motion.div>
-                  <p className="font-extralight text-amber-900 pt-2">GitHub</p>
+                  <p className="font-extralight text-amber-900 pt-2">
+                    GitHub/Gitea
+                  </p>
                 </div>
 
                 {/* Next.js */}
@@ -329,7 +331,7 @@ export default function Home() {
         initial={{ opacity: 0, y: 40 }}
         animate={isInView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        className="pt-36 pb-32"
+        className=" pb-32"
       >
         <div className="container">
           <div className="w-full px-4">
@@ -350,6 +352,34 @@ export default function Home() {
           </div>
           <div className="w-full flex max-w-6xl px-6 mx-auto ">
             <div className="grid lg:grid-cols-2 mt-8 pb-8 gap-6">
+              <div className="group overflow-hidden shadow-xl rounded-lg bg-slate-200 hover:shadow-lg transition ease-in delay-100">
+                <Image
+                  className="w-full h-64 object-cover rounded-t-lg"
+                  src="/syifaamanah.png"
+                  alt="Project 1"
+                  width={500}
+                  height={500}
+                />
+                <div className="p-5 bg-amber-50">
+                  <h1 className="font-bold mb-2">
+                    Syifa Amanah Baitullah Tour & Travel
+                  </h1>
+                  <p className="font-medium text-sm text-slate-700">
+                    Syifa Amanah Baitullah Tour & Travel is a travel booking
+                    website designed to make it easy for users to plan and book
+                    their trips.
+                  </p>
+                  <a
+                    href="https://drive.google.com/file/d/1UyQfX8WPHJM0dQ1YWORmXD9MqZ8umPcP/view?usp=drive_link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:underline text-sm"
+                  >
+                    You can read the full documentation here.
+                  </a>
+                </div>
+              </div>
+
               <div className="group overflow-hidden shadow-xl rounded-lg bg-slate-200 hover:shadow-lg transition ease-in delay-100">
                 <Image
                   className="w-full h-64 object-cover rounded-t-lg"
@@ -375,6 +405,7 @@ export default function Home() {
                   </a>
                 </div>
               </div>
+
               <div className="group overflow-hidden shadow-xl rounded-lg bg-slate-200 hover:shadow-lg transition ease-in delay-100">
                 <Image
                   className="w-full h-64 object-cover rounded-t-lg"
@@ -407,7 +438,7 @@ export default function Home() {
 
       {/* Contact Start */}
       <section id="contact">
-        <div className=" mt-20 ">
+        <div className="  ">
           <h2 className="text-4xl mb-2 font-bold text-center text-amber-900">
             Contact
           </h2>
