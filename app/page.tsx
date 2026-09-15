@@ -370,7 +370,7 @@ export default function Home() {
                     their trips.
                   </p>
                   <a
-                    href="https://drive.google.com/file/d/1UyQfX8WPHJM0dQ1YWORmXD9MqZ8umPcP/view?usp=drive_link"
+                    href="https://drive.google.com/file/d/1od_GjmL47yi9e_X_ih-Fjtd1MdORqj-J/view?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-600 hover:underline text-sm"
